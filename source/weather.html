@@ -45,14 +45,19 @@
 </nav>
     <div class="jumbotron">
       <div class="text-center" >
-        <form class="form-group" action="/names" method="post">
-          <label>Please select an option : </label>
-          <select class="" name="options">
-            <option value="male">Males Dog</option>
-            <option value="female">Female Dog</option>
-
+        <form class="form-group" action="/weather" method="post">
+          <label>Select CityName : </label>
+          <input type="text" name="wname" value="">
+          <br>
+          <label>Select Country : </label>
+          <select class="" name="country">
+            <option value="GB">Britian</option>
+            <option value="AE">United Arab Emirates</option>
+            <option value="US">United States</option>
+            <option value="BE">Belgium</option>
           </select>
-          <button type="submit" class="btn btn-primary" name="button">Select</button>
+          <br>
+          <button type="submit" class="btn btn-primary" name="button">Add</button>
 
         </form>
       </div>
